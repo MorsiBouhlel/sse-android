@@ -1,6 +1,6 @@
 include ':sample', ':sse'
 sourceControl {
     gitRepository("https://github.com/MorsiBouhlel/gradle-bintray-plugin.git") {
-        producesModule("org.codehaus.groovy.modules.http-builder:http-builder")
+        producesModule("com.jfrog.bintray.gradle:gradle-bintray-plugin")
     }
 }
